@@ -14,33 +14,24 @@ ForceQuit.prototype = {
 
     _init: function() {
         PanelMenu.SystemStatusButton.prototype._init.call(this, 'start-here');
-        this._button = new St.Bin({
-            style_class: 'panel-button'
-        });
-
-        let icon = new St.Icon({
+        this._button = new St.Button();
+        this._button.set_tooltip_text('Click me and select a Window to kill!');
+        this._button.set_child(new St.Icon({
             icon_name: 'window-close',
-            icon_type: St.IconType.SYMBOLIC,
             icon_size: 17
-        });
-
-        this._button.set_tooltip_text('Double Click me and select a Window to kill!');
-        this._button.add_actor(icon, {
-            expand: false
-        });
-        this._button.set_child(icon);
-        this._button.connect('button-press-event', Lang.bind(this, function () {
+        }));
+        this._button.connect('clicked', Lang.bind(this, function () {
             Util.spawn(['xkill']);
         }));
     }
-
 };
 
 let forceQuit;
 
 function enable() {
     forceQuit = new ForceQuit();
-    Main.panel._leftBox.insert_actor(forceQuit._button, 2);
+    let _children = Main.panel._leftBox.get_children();
+    Main.panel._leftBox.insert_actor(forceQuit._button, _children.length - 1);
 }
 
 function disable() {
