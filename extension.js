@@ -15,7 +15,6 @@ ForceQuit.prototype = {
     _init: function() {
         PanelMenu.SystemStatusButton.prototype._init.call(this, 'start-here');
         this._button = new St.Button();
-        this._button.set_tooltip_text('Click me and select a Window to kill!');
         this._button.set_child(new St.Icon({
             icon_name: 'window-close',
             icon_size: 17
@@ -31,7 +30,7 @@ let forceQuit;
 function enable() {
     forceQuit = new ForceQuit();
     let _children = Main.panel._leftBox.get_children();
-    Main.panel._leftBox.insert_actor(forceQuit._button, _children.length - 1);
+    Main.panel._leftBox.insert_child_at_index(forceQuit._button, _children.length - 1);
 }
 
 function disable() {
