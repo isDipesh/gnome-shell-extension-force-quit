@@ -1,1 +1,11 @@
-{"shell-version": ["3.0","3.1.91","3.1.92","3.2"], "uuid": "force-quit@xtranophilist", "name": "Force Quit", "description": "Force Quit not responding applications", "url": "http://motorscript.com/gnome-shell-extension-force-quit/"}
+{ "description" : "Force Quit not responding applications",
+  "name" : "Force Quit",
+  "shell-version" : [ "3.0",
+      "3.1.91",
+      "3.1.92",
+      "3.2",
+      "3.4"
+    ],
+  "url" : "https://github.com/amites/gnome-shell-extension-force-quit",
+  "uuid" : "force-quit@alvin.mitesdesign"
+}

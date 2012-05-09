@@ -1,0 +1,8 @@
+Add a force quit button to the top bar in gnome.
+
+Ported to support Gnome 3.4
+
+Ported from the original extension available at:
+    http://motorscript.com/gnome-shell-extension-force-quit/
+
+Handy if you're prone to working with unstable software *grin*
