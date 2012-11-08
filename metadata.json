@@ -1,10 +1,15 @@
 { "description" : "Force Quit not responding applications",
   "name" : "Force Quit",
-  "shell-version" : [ "3.0",
-      "3.1.91",
-      "3.1.92",
-      "3.2",
-      "3.4"
+  "shell-version" : [
+      "3.0"
+      ,"3.1.91"
+      ,"3.1.92"
+      ,"3.2"
+      ,"3.4"
+      ,"3.5.2"
+      ,"3.5.4"
+      ,"3.6.0"
+      ,"3.6.1"
     ],
   "url" : "https://github.com/amites/gnome-shell-extension-force-quit",
   "uuid" : "force-quit@alvin.mitesdesign"
