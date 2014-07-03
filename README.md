@@ -14,7 +14,7 @@ From Gnome Shell Extensions Directory:
 
 **Or Manually**
 
-Download:
+Download:  
 `cd ~/.local/share/gnome-shell/extensions`  
 `git clone https://github.com/xtranophilist/gnome-shell-extension-force-quit.git`  
 `mv gnome-shell-extension-force-quit/ force-quit@xtranophilist`  
