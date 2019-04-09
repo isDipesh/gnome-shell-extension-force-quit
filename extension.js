@@ -10,10 +10,10 @@ function ForceQuit() {
 }
 
 ForceQuit.prototype = {
-    __proto__: PanelMenu.SystemStatusButton.prototype,
+    __proto__: PanelMenu.Button.prototype,
 
     _init: function() {
-        PanelMenu.SystemStatusButton.prototype._init.call(this, 'start-here');
+        PanelMenu.Button.prototype._init.call(this, 'start-here');
         this._button = new St.Button();
         this._button.set_child(new St.Icon({
             icon_name: 'window-close',
