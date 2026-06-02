@@ -14,14 +14,16 @@ From Gnome Shell Extensions Directory:
 
 **Or Manually**
 
-Download:  
-`cd ~/.local/share/gnome-shell/extensions`  
-`git clone https://github.com/xtranophilist/gnome-shell-extension-force-quit.git`  
-`mv gnome-shell-extension-force-quit/ force-quit@xtranophilist`  
+Download:
+```bash
+cd ~/.local/share/gnome-shell/extensions
+git clone https://github.com/isDipesh/gnome-shell-extension-force-quit.git
+mv gnome-shell-extension-force-quit/ force-quit@isDipesh
+```
 
 Restart Gnome:  
-Alt+F2 to open run command prompt   
-Enter r  
+`Alt+F2` to open run command prompt   
+Enter `r`
 
 Enable `Force Quit Extension` from Extensions from `gnome-tweak-tool`.  
 
