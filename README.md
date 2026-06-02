@@ -8,7 +8,7 @@ Handy if you're prone to working with unstable software *grin*
 
 This extension employs 'xkill' on the backend.
 
-##Installation  
+## Installation  
 From Gnome Shell Extensions Directory:  
 [https://extensions.gnome.org/extension/102/force-quit/](https://extensions.gnome.org/extension/102/force-quit/)
 
