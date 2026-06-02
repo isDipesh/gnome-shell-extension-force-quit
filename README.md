@@ -27,7 +27,7 @@ Enter `r`
 
 Enable `Force Quit Extension` from Extensions from `gnome-tweak-tool`.  
 
-Superpiffer has created a package for archlinux in [https://aur.archlinux.org/packages.php?ID=55879]([https://aur.archlinux.org/packages.php?ID=55879](https://web.archive.org/web/20150804182442/https://aur.archlinux.org/packages.php?ID=55879) "AUR").  
+Superpiffer has created a package for archlinux in [https://aur.archlinux.org/packages.php?ID=55879](https://web.archive.org/web/20150804182442/https://aur.archlinux.org/packages.php?ID=55879 "AUR").  
 
 If it doesn't work on your system, maybe you don't have `xkill` installed.  
 jjmarin on GSE says "In fedora you need to install the package `xorg-x11-apps` in order to get the `xkill`".  
