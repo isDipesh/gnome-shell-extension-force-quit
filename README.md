@@ -18,7 +18,7 @@ Download:
 ```bash
 cd ~/.local/share/gnome-shell/extensions
 git clone https://github.com/isDipesh/gnome-shell-extension-force-quit.git
-mv gnome-shell-extension-force-quit/ force-quit@isDipesh
+mv gnome-shell-extension-force-quit/ force-quit@isdipesh
 ```
 
 Restart Gnome:  
